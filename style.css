@@ -1,16 +1,4 @@
 
-/******Hide stepper arrows***********/
-
-.romanize-input::-webkit-outer-spin-button,
-.romanize-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-input[type='number'] {
-  -moz-appearance:textfield;
-}
-/************************************/
-
 .romanize-input {
     text-align: center;
     width: 80px;
