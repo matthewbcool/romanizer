@@ -16,7 +16,16 @@
   }
   
   .outputbox {
+    position: absolute;;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 210px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-image: url("img/stone.png");
+    background-size: cover;
     text-align: center;
-    padding-top: 10em;
   }
   
