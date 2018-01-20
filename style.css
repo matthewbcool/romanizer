@@ -1,6 +1,7 @@
 .romanize-input {
     text-align: center;
     width: 80px;
+    border-radius: 5px;
   }
   
   .wrapper {
@@ -35,6 +36,10 @@
     font-size: 56px;
     text-shadow: rgb(48, 47, 42) 3px 2px 1px;
     font-weight: bold;
+  }
+
+  .romanize-btn {
+     border-radius: 2px;
   }
 
   /*******************CLOUDS*************************/
