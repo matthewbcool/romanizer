@@ -1,3 +1,16 @@
+
+/******Hide stepper arrows***********/
+
+.romanize-input::-webkit-outer-spin-button,
+.romanize-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+/************************************/
+
 .romanize-input {
     text-align: center;
     width: 80px;
@@ -31,10 +44,10 @@
   }
 
   .letters {
-    color: antiquewhite;
-    padding-top: 30px;
+    color: rgb(247, 225, 197);
+    padding-top: 50px;
     font-size: 56px;
-    text-shadow: rgb(48, 47, 42) 3px 2px 1px;
+    text-shadow: rgb(48, 47, 42) 10px 4px 2px;
     font-weight: bold;
   }
 

@@ -45,6 +45,7 @@ function toRoman(num) {
     $( '#output' ).empty();
     $( '#output' ).append(toRoman($('#input-number').val()));
     $clouds.show().shake().fadeOut();
+    $( '#input-number' ).val("")
 
   });
   
