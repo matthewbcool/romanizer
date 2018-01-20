@@ -28,4 +28,59 @@
     background-size: cover;
     text-align: center;
   }
+
+  .letters {
+    color: antiquewhite;
+    padding-top: 30px;
+    font-size: 56px;
+    text-shadow: rgb(48, 47, 42) 3px 2px 1px;
+    font-weight: bold;
+  }
+
+  /*******************CLOUDS*************************/
+
+  /*.hide {
+    visibility: hidden;
+  } 
+  .show {
+    visibility: visible;
+  }
+  */
+
+  .test {
+    border: solid red 20px;
+  }
+
+  .cloud1 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 150px;
+    left: 0;
   
+  }
+  .cloud2 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 65px;
+    left: 70px;
+  }
+  .cloud3 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 20px;
+    bottom: 10px;
+    left: 0px;
+  }
+  .cloud4 {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 80px;
+    bottom: 70px;
+    left: 0px;
+  }
